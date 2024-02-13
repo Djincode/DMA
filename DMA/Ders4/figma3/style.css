@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    background-color: rgba(15, 15, 27, 1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 70%;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    font-weight: 500;
+    height: 30px;
+}
+
+.header h3 {
+    font-size: 18px;
+    color: white;
+    line-height: 21px;
+    height: 25px;
+    margin: 20px 0;
+
+}
+
+.cards {
+    width: 185px;
+    height: 185px;
+    border-radius: 10px;
+    background-color: rgba(36, 36, 134, 1);
+    padding: 20px;
+}
+
+.cardcollector {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.cards h3 {
+    color: 
+    rgba(255, 255, 255, 1);
+    font-size: 16px;
+    width: 145px;
+    height: 48px;
+    font-weight: 400;
+}
+
+.cards h2 {
+    color: 
+    rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 30px 0;
+
+}
+
+.cards a {
+    color: 
+    rgba(255, 255, 255, 1);
+
+    margin-top: 10px;
+    font-size: 14px;
+}
+.cards:nth-child(2), .cards:nth-child(3) {
+    background-color: rgba(23, 23, 39, 1);
+    position: relative;
+}
+
+.best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    left: 36%;
+    width: 65px;
+    height: 23px;
+    color: aliceblue;
+    background-color: green;
+    font-size: 10px;
+    border-radius: 20px;
+
+}
+
+button {
+    width: 93px;
+    height: 55px;
+    border: 2px solid rgba(105, 105, 154, 1);
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
