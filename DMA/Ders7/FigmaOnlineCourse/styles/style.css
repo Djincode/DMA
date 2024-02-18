@@ -222,6 +222,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 43px;
+
 }
 .textandlink a {
     color: #262626;
@@ -770,6 +771,7 @@ footer p {
         display: flex;
         flex-direction: column;
         gap: 30px;
+        margin-bottom: 112px;
 
 
     }
@@ -779,19 +781,28 @@ footer p {
       flex-direction: column;
         align-items: center;
         height: 43px;
-        margin-top: 14px;
+        margin-top: -9px;
      
     }
 .textandlink p {
     width: 100%;
     font-size: 14px;
     height: 90px;
+    margin-top: 4px;
+}
+
+.textandlinkp{
+    margin-top: 25px !important;
 }
 .textandlink a {
     display: block;
     text-align: center;
     padding: 10px;
     margin: 20px 0;
+}
+
+.sectwo-about-h3 {
+    margin-bottom: 20px;
 }
 
 
@@ -950,4 +961,29 @@ footer p {
     gap: 60px;
    }
 }
+@media screen and (width <= 992px) {
+    .courses, .instructors, .plans, .plan-header, .achievement {
+        max-width: 400px;
+    }
+    .plan-header{
+        max-width: 330px;
+    }
+    .instructor-text, .instructor-footer{
+        max-width: 330px;
+    }
+    .course-container, .course-img, .course-img img{
+        max-width: 100%;
+    }
+
+    .info p {
+        margin-left: 15px;
+    }
+
+    .sectwo-about-h3{
+        margin-bottom: 15px;
+    }
+    
+}
+
+
 
