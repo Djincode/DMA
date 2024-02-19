@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.box i{
+    font-size: 80px;
+   animation: ringbell 5s linear infinite;
+
+}
+
+
+
+@keyframes ringbell{
+    0%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.text h1 {
+    font-size: 50px;
+    animation: fader 5s linear infinite;
+
+}
+
+@keyframes fader {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
